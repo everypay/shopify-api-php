@@ -272,6 +272,6 @@ class Http
      */
     public function getApiDeprecationTimestampFilePath(): string
     {
-        return dirname(__DIR__) . '/.last_api_deprecation_warning';
+        return '/tmp/.last_api_deprecation_warning';
     }
 }
